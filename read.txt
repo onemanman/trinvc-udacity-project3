@@ -1,0 +1,11 @@
+--login region: us-east-1
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin $AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com
+
+WmlrQnhiZDZaRQ==
+
+
+-- create cloud watch
+
+aws eks create-addon --addon-name amazon-cloudwatch-observability --cluster-name trinvc-project3-cluster
+
+aws eks update-cluster-config --region us-east-1 --name trinvc-project3-cluster --logging '{"clusterLogging":[{"types":["api","audit","authenticator","controllerManager","scheduler"],"enabled":true}]}'
