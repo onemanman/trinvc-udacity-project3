@@ -1,0 +1,10 @@
+INSERT INTO users (id, first_name, last_name, joined_at, is_active) VALUES ('1','Cristopher', 'Alexander', '2024-01-20 03:23:39.757813', true);
+INSERT INTO users (id, first_name, last_name, joined_at, is_active) VALUES ('2','Dakota', 'Gardner', '2024-02-02 16:23:39.757830', true);
+INSERT INTO users (id, first_name, last_name, joined_at, is_active) VALUES ('3','Mattie', 'Moyer', '2024-01-31 10:23:39.757836', true);
+INSERT INTO users (id, first_name, last_name, joined_at, is_active) VALUES ('4','Darien', 'Gamble', '2024-02-13 05:23:39.757840', true);
+INSERT INTO users (id, first_name, last_name, joined_at, is_active) VALUES ('5','Luca', 'Abbott', '2024-02-11 22:23:39.757844', true);
+INSERT INTO users (id, first_name, last_name, joined_at, is_active) VALUES ('6','Valeria', 'Franklin', '2024-02-07 18:23:39.757848', true);
+INSERT INTO users (id, first_name, last_name, joined_at, is_active) VALUES ('7','Courtney', 'Waters', '2024-12-26 05:23:39.757852', true);
+INSERT INTO users (id, first_name, last_name, joined_at, is_active) VALUES ('8','Aiyana', 'Liu', '2024-01-10 15:23:39.757855', true);
+INSERT INTO users (id, first_name, last_name, joined_at, is_active) VALUES ('9','Weston', 'Clark', '2024-01-18 17:23:39.757859', true);
+INSERT INTO users (id, first_name, last_name, joined_at, is_active) VALUES ('10','Karla', 'Oneal', '2024-01-16 04:23:39.757862', true);
