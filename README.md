@@ -1,8 +1,5 @@
-<<<<<<< HEAD
+
 # trinvc-udacity-project3
-trinvc-udacity-project3
-=======
-# Udacity_project3
 # Udacity AWS Cloud DevOps Engineer - Project 03 - Operationalizing a Coworking Space Microservice
 
 ## Project Overview
@@ -10,10 +7,10 @@ trinvc-udacity-project3
 Project: Coworking Space Service
 The Coworking Space Service is a set of APIs that enables users to request one-time tokens and administrators to authorize access to a coworking space.
 ### URL:
-- [ReadinessCheck](http://a4be6b4b1a57348e9a05a9fed1f95b67-2034889690.us-east-1.elb.amazonaws.com:5153/readiness_check)
-- [HealthCheck](http://a4be6b4b1a57348e9a05a9fed1f95b67-2034889690.us-east-1.elb.amazonaws.com:5153/health_check)
-- [UserVisits](http://a4be6b4b1a57348e9a05a9fed1f95b67-2034889690.us-east-1.elb.amazonaws.com:5153/api/reports/user_visits)
-- [DailyUsage](http://a4be6b4b1a57348e9a05a9fed1f95b67-2034889690.us-east-1.elb.amazonaws.com:5153/api/reports/daily_usage)
+- [ReadinessCheck](http://a87cd93a964b8418db8de9f90f56cdc6-1945062411.us-east-1.elb.amazonaws.com:5153/readiness_check)
+- [HealthCheck](http://a87cd93a964b8418db8de9f90f56cdc6-1945062411.us-east-1.elb.amazonaws.com:5153/health_check)
+- [UserVisits](http://a87cd93a964b8418db8de9f90f56cdc6-1945062411.us-east-1.elb.amazonaws.com:5153/api/reports/user_visits)
+- [DailyUsage](http://a87cd93a964b8418db8de9f90f56cdc6-1945062411.us-east-1.elb.amazonaws.com:5153/api/reports/daily_usage)
 
 This service follows a microservice pattern and the APIs are split into distinct services that can be deployed and managed independently of one another.
 
@@ -39,15 +36,6 @@ If you're using your own local computer, you'll need:
 - helm - apply Helm Charts to a Kubernetes cluster
 - GitHub - pull and clone code
 
-### Remote Resource Requirements
-
-This project utilizes Amazon Web Services (AWS). You'll find instructions for using a temporary AWS account on the next page. The AWS resources you'll need to use for the project include:
-
-- AWS CLI
-- AWS CodeBuild - build Docker images remotely
-- AWS ECR - host Docker images
-- Kubernetes Environment with AWS EKS - run applications in k8s
-- AWS CloudWatch - monitor activity and logs in EKS
 
 ## Project Instructions
 
@@ -55,11 +43,9 @@ This project utilizes Amazon Web Services (AWS). You'll find instructions for us
 
 - [AWS Account](https://aws.amazon.com/)
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-- [Terraform](https://developer.hashicorp.com/terraform/downloads?product_intent=terraform)
 - [Helm Chart](https://helm.sh/docs/intro/install/)
 - [PostgresSQL](https://www.postgresql.org/download/)
-- [Minikube](https://github.com/kubernetes/minikube)
-- [VSCode](https://code.visualstudio.com/)
+
 
 ### Clone the project
 
@@ -74,7 +60,7 @@ This project utilizes Amazon Web Services (AWS). You'll find instructions for us
 1. [.bin](https://github.com/onemanman/trinvc-udacity-project3/tree/main/.bin): Bash file to complete project
 2. [db](https://github.com/onemanman/trinvc-udacity-project3/tree/main/db): Scripts to seed data
 3. [deployment](https://github.com/onemanman/trinvc-udacity-project3/tree/main/deployment): Kubernetes yaml files
-4. [screenshot](https://github.com/onemanman/trinvc-udacity-project3/tree/main/ScreenShot): Screenshot
+4. [screenshot](https://github.com/onemanman/trinvc-udacity-project3/tree/main/ProjectScreenShot): ProjectScreenshot
 
 ### How to run
 
@@ -127,21 +113,3 @@ After this is configured, you can navigate to CloudWatch in the AWS console to a
    kubectl get svc
    ```
 
-<img src="./ScreenShot/kubectl_get_public_backend_load_balancer_externalIP.png">
-
-### Result
-
-1. Web API
-
-<img src="./ScreenShot/08_test_api_loadbalancer_externalIP.png">
-
-<img src="./ScreenShot/09_test_api_loadbalancer_externalIP_user_visits.png">
-
-2. CloudWatch
-
-<img src="./ScreenShot/10_LogCloudWatch.png">
-
-3. Kubectl logs pod
-
-<img src="./ScreenShot/kubectl_log_pod_backend.png">
->>>>>>> 8e1800e (init commit)
