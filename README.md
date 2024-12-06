@@ -7,10 +7,10 @@
 Project: Coworking Space Service
 The Coworking Space Service is a set of APIs that enables users to request one-time tokens and administrators to authorize access to a coworking space.
 ### URL:
-- [ReadinessCheck](http://a87cd93a964b8418db8de9f90f56cdc6-1945062411.us-east-1.elb.amazonaws.com:5153/readiness_check)
-- [HealthCheck](http://a87cd93a964b8418db8de9f90f56cdc6-1945062411.us-east-1.elb.amazonaws.com:5153/health_check)
-- [UserVisits](http://a87cd93a964b8418db8de9f90f56cdc6-1945062411.us-east-1.elb.amazonaws.com:5153/api/reports/user_visits)
-- [DailyUsage](http://a87cd93a964b8418db8de9f90f56cdc6-1945062411.us-east-1.elb.amazonaws.com:5153/api/reports/daily_usage)
+- [ReadinessCheck](http://ab0b88a71b0854d0eb9d82c981144078-185287864.us-east-1.elb.amazonaws.com:5153/readiness_check)
+- [HealthCheck](http://ab0b88a71b0854d0eb9d82c981144078-185287864.us-east-1.elb.amazonaws.com:5153/health_check)
+- [UserVisits](http://ab0b88a71b0854d0eb9d82c981144078-185287864.us-east-1.elb.amazonaws.com:5153/api/reports/user_visits)
+- [DailyUsage](http://ab0b88a71b0854d0eb9d82c981144078-185287864.us-east-1.elb.amazonaws.com:5153/api/reports/daily_usage)
 
 This service follows a microservice pattern and the APIs are split into distinct services that can be deployed and managed independently of one another.
 
